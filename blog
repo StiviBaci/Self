@@ -1,83 +1,15 @@
-<!DOCTYPE html>
 <html>
-
-  <head>
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-
-    <link rel="stylesheet" type="text/css" href="mainFregoCSS.css">
+    <head>
+        <link rel="stylesheet" href="main.css" />
+    </head>
     
-	
-  </head>
-
-  <body>
-    	<body>
-	
-		<div class="nav nav-pills">
-     		<div class="container">
-       			 <ul class="nav nav-tabs">
-				<li class="pull-right"><a href="Rrethnesh.html"><img src="InfoIcon.png"/> Rreth Nesh</a></li>
-				<li class="pull-right"><a href="Produktet.html"><img src="CatalogIcon.png" width="24px" height="24px"/> Produktet</a></li>
-				<li class="active"><a href="Kryefaqja.html"><img src="HomeIcon.png"/> Kryefaqja</a></li>
-			</ul>
-     		 </div>
-    		</div>
-
-    <div class="jumbotron">
-      <div class="container">
-	<img src="FregoFilter.png"/>
-      </div>
-    </div> 
-
-    <div class="permbledhje">
-        <div class="container">
-            <h2>Mirësevini</h2>
-            <p>në faqen tonë të internetit, ku mund të informoheni se kush jemi ne, çfarë bëjmë ne dhe se si mund të na kontaktoni. </p>
-
-            <div class="row">
-                
-                <div class="col-md-4">
-
-                    <div class="thumbnail">
-
-                        <img src="Filtra-Vaji.png">
-
-                    </div>
-                         
-                    <div class="thumbnail">
-
-                        <img src="Servisi.png" >
-
-                    </div>
-
-                </div>
-                
-                <div class="col-md-4">
-
-    			<div class="thumbnail" id="FiltratBlu">
-
-      				<img src="Air-Filter-Blu.jpg">
-    			</div>
-
-  		</div>
-
-  		<div class="col-md-4">
-
-   			 <div class="thumbnail">
-
-     				<p id="permbledhje">	
-					<span>Frego Filter</span> ofron produkte të cilësisë më të lartë me çmime më konkurruese. Konsumatorët që na bashkohen në zhvillimin e produkteve të reja dhe të përmirësuara gëzojnë të drejta ekskluzive për produktet tona!</br> <span>Misioni</span> ynë është që të jemi lider në tregtimin e produkteve i fokusuar në cilësi të lartë të produkteve të përballueshme për klientët tanë. Ne kërkojmë për të prodhuar produkte të automobilave dhe të sigurojë klientët tanë me mundësitë për rritjen dhe për të ndihmuar komunitetet në të cilët ne operojmë. Në çdo gjë që bëjmë, ne përpiqemi për ndershmëri, drejtësi dhe integritet.
-				</p>
-    
-			</div>
-
-		</div>
-            </div>
+    <body>
+        <!-- Right below is an image of the sun -->
+        <img id="sun" src="http://goo.gl/PmbqZa">
+        
+        <!-- Insert the 'earth' on the next line -->
+        <div id='earth-orbit'>
+            <img id="earth" src="http://i.imgur.com/WXWmkEr.png?1">
         </div>
-    </div>
-	
-		<footer>
-			<h5><center><a href="Kryefaqja.html">Kryefaqja</a> | <a href="Produktet.html">Produktet</a> | <a href="Rrethnesh.html">Rreth Nesh</a></center></h5>
-		</footer>
-            
-  </body>
+    </body>
 </html>
