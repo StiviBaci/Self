@@ -42,6 +42,7 @@ body {
     background-image: utl("http://www.fyqyfz.com/data/uploads/6/300150-background-images-for-websites-wallpapers.jpg");
 }
 
-.bg {
+.bg img{
     z-index: -1;
+    position: relative;
 }
