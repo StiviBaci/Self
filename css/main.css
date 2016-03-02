@@ -37,3 +37,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+body {
+    background-color: #03a9f4;
+    
+}
