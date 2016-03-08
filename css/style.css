@@ -46,8 +46,8 @@ Menu trigger
   z-index: 4;
   top: 24px;
   right: 5%;
-  height: 52px;
-  width: 52px;
+  height: 75px; // initially 52px
+  width: 75px; // initially 52px
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.8);
   -webkit-transition: background 0.2s;
