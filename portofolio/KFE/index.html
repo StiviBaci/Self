@@ -239,49 +239,69 @@
                         </li>
 
                         <li><a class="btn-floating btn-small waves-effect waves-light blue-grey" data-toggle="modal" data-target="#myModal"><i class="material-icons">email</i></a>
-                                    <!--OPEN MODAL-->
-                                            <div class="modal fade" id="myModal" role="dialog">
-                                              <div class="modal-dialog">
-            
-                                                <!-- Modal content-->
-                                                <div class="modal-content">
-                                                  <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                                    <h4 class="modal-title">Dërgo një mesazh!</h4>
-                                                  </div>
-                                                  <div class="modal-body">
-                                                    <div class="card-panel reply-section hoverable">
-                                                        <div class="row">
-                                                            <form class="col-md-12">
-                                                                <div class="input-field">
-                                                                    <i class="material-icons prefix">account_circle</i>
-                                                                    <input id="reply-name" type="text" class="validate">
-                                                                    <label for="reply-name">Emri juaj</label>
-                                                                </div>
-                                                                <div class="input-field">
-                                                                    <i class="material-icons prefix">mail</i>
-                                                                    <input id="reply-mail" type="email" class="validate">
-                                                                    <label for="reply-mail">E-maili juaj</label>
-                                                                </div>
-                                                                <div class="input-field">
-                                                                    <i class="material-icons prefix">mode_edit</i>
-                                                                    <textarea id="reply-text" class="materialize-textarea"></textarea>
-                                                                    <label for="reply-text">Mesazhi juaj</label>
-                                                                </div>
-                                                            </form>
-            
-                                                        </div>
-                                                        <!--./Main row-->
+                                <!--OPEN MODAL-->
+                                <div class="modal fade" id="myModal" role="dialog">
+                                  <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Dërgo një mesazh!</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <div class="card-panel reply-section hoverable">
+                                            <div class="row">
+                                                <form class="col-md-12">
+                                                    <div class="input-field">
+                                                        <i class="material-icons prefix">account_circle</i>
+                                                        <input id="reply-name" type="text" class="validate">
+                                                        <label for="reply-name">Emri juaj</label>
                                                     </div>
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                    <button type="button" class="btn btn-primary waves-effect waves-light">Dërgo</button>
-                                                  </div>
-                                                </div>
-            
+                                                    <div class="input-field">
+                                                        <i class="material-icons prefix">mail</i>
+                                                        <input id="reply-mail" type="email" class="validate">
+                                                        <label for="reply-mail">E-maili juaj</label>
+                                                    </div>
+                                                    <div class="input-field">
+                                                        <i class="material-icons prefix">mode_edit</i>
+                                                        <textarea id="reply-text" class="materialize-textarea"></textarea>
+                                                        <label for="reply-text">Mesazhi juaj</label>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                            <!--./Main row-->
+                                        </div>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-target="#flmModal">Dërgo</button>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="flmModal" role="dialog">
+                                            <div class="modal-dialog">
+
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                              <div class="modal-header row">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title pull-left">Faleminderit!</h4>
+                                              </div>
+                                              <div class="modal-body pull-left">
+                                                <p>Mesazhi juaj u dërgua me sukses!</p>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
                                               </div>
                                             </div>
-                                            <!--./END MODAL-->
+
+                                            </div>
+                                            </div>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                                <!--./END MODAL-->
                             <p>KungfuExpress.Europe@gmail.com</p>
                         </li>
                         <li>
