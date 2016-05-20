@@ -18,9 +18,11 @@
 }
 
 .jumbotron .container {
+  margin: 0 0 0 0;
+  width: 400px;
+  height: 240px;
   position: relative;
-  top: 350px;
-  left: 800px
+  padding: 300px 20px 20px 550px;
 }
 
 #rreth-nesh-logo {
