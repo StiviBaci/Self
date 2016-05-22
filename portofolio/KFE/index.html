@@ -71,7 +71,7 @@
 
                 <ul class="dropdown-menu">
                   <li><a href="pdf/kungfu-menu.pdf">Menu</a></li>
-                  <li><a href="#oraret">Oraret</a></li>
+                  <li><<a data-toggle="modal" data-target="#oraretModal">Oraret</a></li>
                   <li><a data-toggle="modal" data-target="#modalTaxi">Shërbim Taxi</a></li>
                   <li role="separator" class="divider"></li>
                   <li class="dropdown-header">Na ndiqni në rrjetet sociale</li>
@@ -306,44 +306,55 @@
             </div>
 
         </section><!--/.SECTION CONTACT END-->
-        
-                <section id="oraret">
-                  <div class="row">
-                      <fieldset>
-                        <legend class="no-width"><h3>Oraret</h3></legend>
-                        <div class="table-responsive">
-                          <table class="table table-stripped table-hover table-condensed">
-                              <thead>
-                                <th>Dita</th><th><center>Orari i hapjes</center></th><th><center>Orari i mbylljes</center></th>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>E Hënë</td><td><center>11:30</center></td><td><center>23:45</center></td>
-                                </tr>
-                                <tr>
-                                  <td>E Martë</td><td><center>11:30</center></td><td><center>23:45</center></td>
-                                </tr>
-                                <tr>
-                                  <td>E Mërkurë</td><td><center>11:30</center></td><td><center>23:45</center></td>
-                                </tr>
-                                 <tr>
-                                  <td>E Enjte</td><td><center>11:30</center></td><td><center>23:45</center></td>
-                                </tr>
-                                <tr>
-                                  <td>E Premte</td><td><center>11:30</center></td><td><center>23:45</center></td>
-                                </tr>
-                                <tr>
-                                  <td>E Shtunë</td><td><center>11:30</center></td><td><center>23:45</center></td>
-                                </tr>
-                                <tr>
-                                  <td>E Djelë</td><td><center>11:30</center></td><td><center>23:45</center></td>
-                                </tr>
-                              </tbody>                                                                                       
-                          </table>
-                          </div>
-                      </fieldset>
+
+            <!-- Modal -->
+            <div class="modal fade" id="oraretModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Dërgo një mesazh!</h4>
                   </div>
-                </section>
+                  <div class="modal-body">        
+                      <div class="row">
+                          <fieldset>
+                            <legend class="no-width"><h3>Oraret</h3></legend>
+                            <div class="table-responsive">
+                              <table class="table table-stripped table-hover table-condensed">
+                                  <thead>
+                                    <th>Dita</th><th><center>Orari i hapjes</center></th><th><center>Orari i mbylljes</center></th>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>E Hënë</td><td><center>11:30</center></td><td><center>23:45</center></td>
+                                    </tr>
+                                    <tr>
+                                      <td>E Martë</td><td><center>11:30</center></td><td><center>23:45</center></td>
+                                    </tr>
+                                    <tr>
+                                      <td>E Mërkurë</td><td><center>11:30</center></td><td><center>23:45</center></td>
+                                    </tr>
+                                     <tr>
+                                      <td>E Enjte</td><td><center>11:30</center></td><td><center>23:45</center></td>
+                                    </tr>
+                                    <tr>
+                                      <td>E Premte</td><td><center>11:30</center></td><td><center>23:45</center></td>
+                                    </tr>
+                                    <tr>
+                                      <td>E Shtunë</td><td><center>11:30</center></td><td><center>23:45</center></td>
+                                    </tr>
+                                    <tr>
+                                      <td>E Djelë</td><td><center>11:30</center></td><td><center>23:45</center></td>
+                                    </tr>
+                                  </tbody>                                                                                       
+                              </table>
+                              </div>
+                          </fieldset>
+                      </div>
+                </div>
+            </div>
+            </div>
 
 <br>
 
