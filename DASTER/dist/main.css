@@ -76,19 +76,39 @@ sector.main-wrapper div .image {
 
 */
 
+nav {
+  height: 8%;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
 
 sector.main-wrapper div .image {
   width: 80%;
-  padding-left: 10%;
+  margin-top: 5%;
+  margin-left: 10%;
+  animation: fadeIn 3s;
 }
 
 sector.main-wrapper div p {
-  width: 70%;
-  padding-left: 15%;
+  width: 75%;
+  margin-left: 15%;
   margin-top: -40%;
   z-index: 10;
 
   font-family: 'Fira Mono';
   text-overflow: clip;
   line-height: 1.5rem;
+}
+
+
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+  }
+
+  to { 
+    opacity: 1;
+    background-color: #E6F2F8;
+   }
 }
