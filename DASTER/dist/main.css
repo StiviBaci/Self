@@ -3,6 +3,7 @@
 html {
     max-width: 100%;
     max-height: auto;
+    box-sizing: border-box;
 }
 
 body {
@@ -43,7 +44,7 @@ sector.main-wrapper {
     height: 75%;
   }
 }
-*/
+
 
 sector.main-wrapper {
   display: flex;
@@ -73,4 +74,21 @@ sector.main-wrapper div .image {
 
 }
 
+*/
 
+
+sector.main-wrapper div .image {
+  width: 80%;
+  padding-left: 10%;
+}
+
+sector.main-wrapper div p {
+  width: 70%;
+  padding-left: 15%;
+  margin-top: -40%;
+  z-index: 10;
+
+  font-family: 'Fira Mono';
+  text-overflow: clip;
+  line-height: 1.5rem;
+}
